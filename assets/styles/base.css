@@ -1,0 +1,50 @@
+:root {
+    --font-family: Quicksand;
+    --text-color: #666;
+    --primary-color: #008ECC;
+    --white-color: white;
+    --black-color: black;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url('../fonts/Quicksand-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: Quicksand;
+    src: url('../fonts/Quicksand-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: Quicksand;
+    src: url('../fonts/Quicksand-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Quicksand;
+    src: url('../fonts/Quicksand-Bold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: Quicksand;
+    src: url('../fonts/Quicksand-SemiBold.ttf');
+    font-weight: 700;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    font-size: 62.5%;
+    font-family: var(--font-family) sans-serif;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
+}
