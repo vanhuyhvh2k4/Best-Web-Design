@@ -1,0 +1,15 @@
+@media (min-width: 768px) and (max-width: 992px) { 
+    .header {
+        padding-left: unset;
+        padding-right: 50px;
+        gap: 15px;
+    }
+
+    .header__actions-auth {
+        border-right: unset;
+    }
+
+    .header__actions-like {
+        display: none;
+    }
+ }
